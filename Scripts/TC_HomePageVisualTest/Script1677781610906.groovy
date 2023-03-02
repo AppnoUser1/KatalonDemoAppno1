@@ -21,17 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.maximizeWindow()
+WebUI.waitForPageLoad(5)
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Make Appointment'))
-
-WebUI.waitForPageLoad(3)
-
-WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Username_username'), 'test')
-
-WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Password_password'), 'invalid user')
-
-WebUI.click(findTestObject('Page_CURA Healthcare Service/button_Login'), FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshotAsCheckpoint('homepageVisualtest')
 
 WebUI.closeBrowser()
 
