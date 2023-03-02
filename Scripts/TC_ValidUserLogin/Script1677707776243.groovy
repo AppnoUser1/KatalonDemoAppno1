@@ -39,9 +39,13 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/span_
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/td_31'))
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'), 'test demo')
+WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'), 'test demo 123423423423 ty4dy 23452352435')
 
 WebUI.click(findTestObject('Page_CURA Healthcare Service/button_Book Appointment'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.takeScreenshotAsCheckpoint('BookAppointmentVisualcheck')
 
 WebUI.closeBrowser()
 
