@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>section</value>
-      <webElementGuid>f571ba7e-d3e4-4e08-b991-ab61a104a84e</webElementGuid>
+      <webElementGuid>2db7948c-926e-4222-b78c-e62a05edf5dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>login</value>
-      <webElementGuid>d4682fd3-a5ad-4b77-8777-4ada84fdb2b5</webElementGuid>
+      <webElementGuid>9f9e0cab-2ac5-410e-bd65-a1148fea935d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>section</value>
-      <webElementGuid>4f59fd97-11e4-4f22-8789-c72a65832c1a</webElementGuid>
+      <webElementGuid>67d0bb86-31a3-45f0-82a4-16ca60f3de63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -95,7 +95,7 @@
         
     
 </value>
-      <webElementGuid>e7ce5618-caa1-405d-9bed-2f12989131e8</webElementGuid>
+      <webElementGuid>1e62d41e-0ff6-4cb4-9db9-08b756d1308b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;login&quot;)</value>
-      <webElementGuid>7a849378-9694-4220-9b54-07740a18337f</webElementGuid>
+      <webElementGuid>d0ba62e1-4bea-42fa-b4c3-a79c0cd95ae9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//section[@id='login']</value>
-      <webElementGuid>94eb90eb-0ef4-4896-9bd7-4c9be8cb134d</webElementGuid>
+      <webElementGuid>5308832f-3708-49d8-bfbf-66fe1cb1fbc4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Make Appointment'])[1]/following::section[1]</value>
-      <webElementGuid>11d74919-a8a9-4136-b23f-b63880ed7c54</webElementGuid>
+      <webElementGuid>fd4767a3-e702-407a-94d8-89e0154627e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='We Care About Your Health'])[1]/following::section[1]</value>
-      <webElementGuid>0ea62864-3a32-4c79-99ef-3fac9b161c78</webElementGuid>
+      <webElementGuid>f18cf4f7-93ab-4083-adcb-409a09e138d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +135,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section</value>
-      <webElementGuid>1bed813b-bbea-4791-b3de-257097577c78</webElementGuid>
+      <webElementGuid>8cadbbed-5968-4e3a-b29a-c656d9d6a142</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -241,6 +241,6 @@
         
     
 ')]</value>
-      <webElementGuid>d99f5dbb-90ac-4a2e-92ce-5c659da93c73</webElementGuid>
+      <webElementGuid>ff34cf4e-2966-45e0-8dd2-06f97657bf0d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

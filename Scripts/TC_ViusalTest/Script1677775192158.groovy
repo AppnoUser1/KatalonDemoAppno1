@@ -25,23 +25,13 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.waitForPageLoad(5)
-
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/section_Login                Please login t_80017f'))
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
 
-WebUI.waitForPageLoad(5)
+WebUI.waitForPageLoad(10)
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34'))
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/td_31'))
-
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'), 'test demo')
-
-WebUI.click(findTestObject('Page_CURA Healthcare Service/button_Book Appointment'))
+WebUI.takeScreenshotAsCheckpoint('loginpagetestvisual')
 
 WebUI.closeBrowser()
 
