@@ -29,7 +29,7 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/secti
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(3)
 
 WebUI.takeScreenshotAsCheckpoint('loginpagetestvisual')
 
