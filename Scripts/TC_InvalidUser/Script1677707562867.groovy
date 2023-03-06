@@ -33,5 +33,3 @@ WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Password_passwo
 
 WebUI.click(findTestObject('Page_CURA Healthcare Service/button_Login'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.closeBrowser()
-

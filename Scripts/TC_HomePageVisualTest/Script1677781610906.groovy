@@ -25,5 +25,3 @@ WebUI.waitForPageLoad(5)
 
 WebUI.takeScreenshotAsCheckpoint('homepageVisualtest')
 
-WebUI.closeBrowser()
-
